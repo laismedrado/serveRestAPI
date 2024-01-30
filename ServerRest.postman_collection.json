@@ -67,9 +67,9 @@
 							"script": {
 								"exec": [
 									"pm.globals.unset(\"schema\");",
-									"pm.globals.unset(\"userName\");",
-									"pm.globals.unset(\"userEmail\");",
-									"pm.globals.unset(\"userPassword\");",
+									"// pm.globals.unset(\"userName\");",
+									"// pm.globals.unset(\"userEmail\");",
+									"// pm.globals.unset(\"userPassword\");",
 									"",
 									"pm.globals.set(\"schema\", {",
 									"  \"$schema\": \"http://json-schema.org/draft-04/schema#\",",
@@ -90,9 +90,9 @@
 									"",
 									"",
 									"// getting test data from CSV file",
-									"pm.globals.set(\"userName\", pm.iterationData.get(\"userName\"))",
-									"pm.globals.set(\"userEmail\", pm.iterationData.get(\"userEmail\"))",
-									"pm.globals.set(\"userPassword\", pm.iterationData.get(\"userPassword\"))"
+									"// pm.globals.set(\"userName\", pm.iterationData.get(\"userName\"))",
+									"// pm.globals.set(\"userEmail\", pm.iterationData.get(\"userEmail\"))",
+									"// pm.globals.set(\"userPassword\", pm.iterationData.get(\"userPassword\"))"
 								],
 								"type": "text/javascript"
 							}
